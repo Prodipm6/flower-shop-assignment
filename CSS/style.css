@@ -11,6 +11,7 @@
     background: rgba(229, 84, 115, 0.10);
     padding: 0 200px;
     gap: 80px;
+    margin-bottom: 130px;
 }
 
 .header-title{
@@ -37,6 +38,71 @@
 }
 
 .header-right img{
-    width: 360px;
+    width: 350px;
     height: 100%;
+}
+
+/* Flower feature section start  */
+main{
+    
+}
+
+.flower-feature{
+    text-align: center;
+}
+
+.flower-feature-title{
+    color: #272727;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.flower-feature-detail{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+}
+
+.flower-container{
+    display: flex;
+    padding: 40px 200px 120px;
+    gap: 20px;
+}
+
+.flower-item-1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 300px;
+    height: 350px;
+}
+.flower-img{
+    max-width: 70%;
+    padding: 60px 41px 0;
+}
+
+.flower-img-3{
+    max-width: 70%;
+    padding: 35px 41px 0;
+}
+    
+.flower-item-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 300px;
+    height: 350px;
+}
+.flower-item-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 300px;
+    height: 350px;
+}
+
+.flower-name{
+    text-align: center;
+    color: #272727;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 20px;
 }

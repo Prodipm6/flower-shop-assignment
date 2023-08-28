@@ -105,6 +105,9 @@
 
 
 /* service section start  */
+.service-item{
+    margin-bottom: 120px;
+}
 .services{
     display: flex;
     margin: 0 200px;
@@ -119,8 +122,46 @@
 .service-icon{
     text-align: center;
 }
+
 .service-icon p{
     color: rgba(39, 39, 39, 0.80);
     font-size: 18px;
     padding-top: 20px;
+}
+
+/* offer or deal section start  */
+.hot-deal{   
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-content{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hot-deal-left{
+    text-align: center;
+    padding-left: 70px;
+    padding-top: 100px;
+}
+
+.hot-deal-title{
+    color: #272727;
+    font-size: 32px;
+    font-weight: 800;
+    padding: 50px 0 20px 0;
+}
+
+span{
+    color: #E55473;
+}
+
+.hot-deal-detail{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    padding-left: 30px;
+    padding-bottom: 50px;
 }

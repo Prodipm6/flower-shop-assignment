@@ -1,0 +1,42 @@
+
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section start  */
+.header{
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 0 200px;
+    gap: 80px;
+}
+
+.header-title{
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+    padding-top: 150px;
+}
+
+.header-detail{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    padding: 30px 0;
+}
+
+.btn-color{
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    padding: 20px 43px;
+    border-radius: 8px;
+    border: 0;
+    margin-bottom: 140px;
+}
+
+.header-right img{
+    width: 360px;
+    height: 100%;
+}

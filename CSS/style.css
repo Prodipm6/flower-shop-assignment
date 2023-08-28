@@ -43,10 +43,6 @@
 }
 
 /* Flower feature section start  */
-main{
-    
-}
-
 .flower-feature{
     text-align: center;
 }
@@ -105,4 +101,26 @@ main{
     font-weight: 700;
     text-decoration-line: underline;
     margin-top: 20px;
+}
+
+
+/* service section start  */
+.services{
+    display: flex;
+    margin: 0 200px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 950px;
+    height: 300px;
+}
+
+.service-icon{
+    text-align: center;
+}
+.service-icon p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    padding-top: 20px;
 }

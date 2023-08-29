@@ -247,6 +247,7 @@ span{
     color: #FFF;
     font-size: 16px;
     font-weight: 700;
+    margin-left: 10px;
 }
 
 /* Footer section start  */
@@ -274,3 +275,50 @@ footer{
     font-weight: 400;
     padding-bottom: 120px;
 }
+
+
+/* Our review section start  */
+.customer-satisfied{
+    margin: 0 200px 120px;
+}
+
+.client-says{
+    text-align: center;
+    color: #272727;
+    font-size: 25px;
+}
+
+.client-says-detail{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.review-section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.review-left{
+    text-align: center;
+}
+
+.review-right{
+    text-align: center;
+}
+
+.client-img{
+    padding-bottom: 10px;
+}
+
+.review{
+    padding: 20px 0;
+}
+
+.review-left, .review-right h4{
+    
+}
+
